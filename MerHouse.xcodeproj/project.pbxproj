@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20E262F2207292C10091F95C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E262F1207292C10091F95C /* AppDelegate.swift */; };
+		20E262F4207292C10091F95C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E262F3207292C10091F95C /* ViewController.swift */; };
+		20E262F7207292C10091F95C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E262F5207292C10091F95C /* Main.storyboard */; };
+		20E262F9207292C10091F95C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20E262F8207292C10091F95C /* Assets.xcassets */; };
+		20E262FC207292C10091F95C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E262FA207292C10091F95C /* LaunchScreen.storyboard */; };
+		20E26307207292C10091F95C /* MerHouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E26306207292C10091F95C /* MerHouseTests.swift */; };
+		20E26312207292C10091F95C /* MerHouseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E26311207292C10091F95C /* MerHouseUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20E26303207292C10091F95C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20E262E6207292C10091F95C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20E262ED207292C10091F95C;
+			remoteInfo = MerHouse;
+		};
+		20E2630E207292C10091F95C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20E262E6207292C10091F95C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20E262ED207292C10091F95C;
+			remoteInfo = MerHouse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20E262EE207292C10091F95C /* MerHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MerHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20E262F1207292C10091F95C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20E262F3207292C10091F95C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20E262F6207292C10091F95C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20E262F8207292C10091F95C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20E262FB207292C10091F95C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20E262FD207292C10091F95C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20E26302207292C10091F95C /* MerHouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MerHouseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20E26306207292C10091F95C /* MerHouseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerHouseTests.swift; sourceTree = "<group>"; };
+		20E26308207292C10091F95C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20E2630D207292C10091F95C /* MerHouseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MerHouseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20E26311207292C10091F95C /* MerHouseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerHouseUITests.swift; sourceTree = "<group>"; };
+		20E26313207292C10091F95C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20E262EB207292C10091F95C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20E262FF207292C10091F95C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20E2630A207292C10091F95C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20E262E5207292C10091F95C = {
+			isa = PBXGroup;
+			children = (
+				20E262F0207292C10091F95C /* MerHouse */,
+				20E26305207292C10091F95C /* MerHouseTests */,
+				20E26310207292C10091F95C /* MerHouseUITests */,
+				20E262EF207292C10091F95C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20E262EF207292C10091F95C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20E262EE207292C10091F95C /* MerHouse.app */,
+				20E26302207292C10091F95C /* MerHouseTests.xctest */,
+				20E2630D207292C10091F95C /* MerHouseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20E262F0207292C10091F95C /* MerHouse */ = {
+			isa = PBXGroup;
+			children = (
+				20E262F1207292C10091F95C /* AppDelegate.swift */,
+				20E262F3207292C10091F95C /* ViewController.swift */,
+				20E262F5207292C10091F95C /* Main.storyboard */,
+				20E262F8207292C10091F95C /* Assets.xcassets */,
+				20E262FA207292C10091F95C /* LaunchScreen.storyboard */,
+				20E262FD207292C10091F95C /* Info.plist */,
+			);
+			path = MerHouse;
+			sourceTree = "<group>";
+		};
+		20E26305207292C10091F95C /* MerHouseTests */ = {
+			isa = PBXGroup;
+			children = (
+				20E26306207292C10091F95C /* MerHouseTests.swift */,
+				20E26308207292C10091F95C /* Info.plist */,
+			);
+			path = MerHouseTests;
+			sourceTree = "<group>";
+		};
+		20E26310207292C10091F95C /* MerHouseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20E26311207292C10091F95C /* MerHouseUITests.swift */,
+				20E26313207292C10091F95C /* Info.plist */,
+			);
+			path = MerHouseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20E262ED207292C10091F95C /* MerHouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20E26316207292C10091F95C /* Build configuration list for PBXNativeTarget "MerHouse" */;
+			buildPhases = (
+				20E262EA207292C10091F95C /* Sources */,
+				20E262EB207292C10091F95C /* Frameworks */,
+				20E262EC207292C10091F95C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MerHouse;
+			productName = MerHouse;
+			productReference = 20E262EE207292C10091F95C /* MerHouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20E26301207292C10091F95C /* MerHouseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20E26319207292C10091F95C /* Build configuration list for PBXNativeTarget "MerHouseTests" */;
+			buildPhases = (
+				20E262FE207292C10091F95C /* Sources */,
+				20E262FF207292C10091F95C /* Frameworks */,
+				20E26300207292C10091F95C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20E26304207292C10091F95C /* PBXTargetDependency */,
+			);
+			name = MerHouseTests;
+			productName = MerHouseTests;
+			productReference = 20E26302207292C10091F95C /* MerHouseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20E2630C207292C10091F95C /* MerHouseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20E2631C207292C10091F95C /* Build configuration list for PBXNativeTarget "MerHouseUITests" */;
+			buildPhases = (
+				20E26309207292C10091F95C /* Sources */,
+				20E2630A207292C10091F95C /* Frameworks */,
+				20E2630B207292C10091F95C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20E2630F207292C10091F95C /* PBXTargetDependency */,
+			);
+			name = MerHouseUITests;
+			productName = MerHouseUITests;
+			productReference = 20E2630D207292C10091F95C /* MerHouseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20E262E6207292C10091F95C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "ibrahim M. samak";
+				TargetAttributes = {
+					20E262ED207292C10091F95C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					20E26301207292C10091F95C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20E262ED207292C10091F95C;
+					};
+					20E2630C207292C10091F95C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20E262ED207292C10091F95C;
+					};
+				};
+			};
+			buildConfigurationList = 20E262E9207292C10091F95C /* Build configuration list for PBXProject "MerHouse" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20E262E5207292C10091F95C;
+			productRefGroup = 20E262EF207292C10091F95C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20E262ED207292C10091F95C /* MerHouse */,
+				20E26301207292C10091F95C /* MerHouseTests */,
+				20E2630C207292C10091F95C /* MerHouseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20E262EC207292C10091F95C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E262FC207292C10091F95C /* LaunchScreen.storyboard in Resources */,
+				20E262F9207292C10091F95C /* Assets.xcassets in Resources */,
+				20E262F7207292C10091F95C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20E26300207292C10091F95C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20E2630B207292C10091F95C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20E262EA207292C10091F95C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E262F4207292C10091F95C /* ViewController.swift in Sources */,
+				20E262F2207292C10091F95C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20E262FE207292C10091F95C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E26307207292C10091F95C /* MerHouseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20E26309207292C10091F95C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E26312207292C10091F95C /* MerHouseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20E26304207292C10091F95C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20E262ED207292C10091F95C /* MerHouse */;
+			targetProxy = 20E26303207292C10091F95C /* PBXContainerItemProxy */;
+		};
+		20E2630F207292C10091F95C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20E262ED207292C10091F95C /* MerHouse */;
+			targetProxy = 20E2630E207292C10091F95C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20E262F5207292C10091F95C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20E262F6207292C10091F95C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20E262FA207292C10091F95C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20E262FB207292C10091F95C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20E26314207292C10091F95C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20E26315207292C10091F95C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20E26317207292C10091F95C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M74BF9MLMG;
+				INFOPLIST_FILE = MerHouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibra.MerHouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20E26318207292C10091F95C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M74BF9MLMG;
+				INFOPLIST_FILE = MerHouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibra.MerHouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		20E2631A207292C10091F95C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M74BF9MLMG;
+				INFOPLIST_FILE = MerHouseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibra.MerHouseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MerHouse.app/MerHouse";
+			};
+			name = Debug;
+		};
+		20E2631B207292C10091F95C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M74BF9MLMG;
+				INFOPLIST_FILE = MerHouseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibra.MerHouseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MerHouse.app/MerHouse";
+			};
+			name = Release;
+		};
+		20E2631D207292C10091F95C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M74BF9MLMG;
+				INFOPLIST_FILE = MerHouseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibra.MerHouseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MerHouse;
+			};
+			name = Debug;
+		};
+		20E2631E207292C10091F95C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M74BF9MLMG;
+				INFOPLIST_FILE = MerHouseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibra.MerHouseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MerHouse;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20E262E9207292C10091F95C /* Build configuration list for PBXProject "MerHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20E26314207292C10091F95C /* Debug */,
+				20E26315207292C10091F95C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20E26316207292C10091F95C /* Build configuration list for PBXNativeTarget "MerHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20E26317207292C10091F95C /* Debug */,
+				20E26318207292C10091F95C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20E26319207292C10091F95C /* Build configuration list for PBXNativeTarget "MerHouseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20E2631A207292C10091F95C /* Debug */,
+				20E2631B207292C10091F95C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20E2631C207292C10091F95C /* Build configuration list for PBXNativeTarget "MerHouseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20E2631D207292C10091F95C /* Debug */,
+				20E2631E207292C10091F95C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20E262E6207292C10091F95C /* Project object */;
+}
