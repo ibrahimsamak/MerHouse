@@ -1,0 +1,83 @@
+/* 
+  Localizable.strings
+  MerHouse
+
+  Created by ibrahim M. samak on 5/28/18.
+  Copyright © 2018 ibrahim M. samak. All rights reserved.
+*/
+
+
+
+//FORGET PASSWORD
+"FORGET PASSWORD" = "FORGET PASSWORD";
+"Error" = "Error";
+"Please enter a valid email" = "Please enter a valid email";
+"Success" = "Success";
+"An Error occurred" = "An Error occurred";
+"No Internet Connection" = "No Internet Connection";
+
+
+//Login
+"Please enter your password" = "Please enter your password";
+
+//Register
+"Please enter Your Name" = "Please enter Your Name";
+
+//CATEGORIES
+"CATEGORIES"  = "CATEGORIES";
+
+//PRODUCTS
+"PRODUCTS" = "PRODUCTS";
+"AED" = "AED";
+
+//products details
+"Added to Favorite Successfully" =  "Added to Favorite Successfully";
+"Added to Cart Successfully" =  "Added to Cart Successfully";
+
+//cart
+"MYCART" = "MY CART";
+"Total" = "Total:";
+"Sorry!! The minimum order is 50 AED" = "Sorry!! The minimum order is 50 AED";
+
+//FAVORITE
+"FAVORITE" =  "FAVORITE";
+
+//NOTIFICATIONS
+"NOTIFICATIONS" = "NOTIFICATIONS";
+
+
+//MY ORDERS
+"MY ORDERS" =  "MY ORDERS";
+"Delivery Charge:" = "Delivery Charge:";
+
+//order Details
+"Qty" = "Qty";
+
+//profile
+"PROFILE" = "PROFILE";
+"Please Enter your username" = "Please enter your username";
+"Images" = "Images";
+"Please select the image source" = "Please select the image source";
+"Cancel" = "Cancel";
+"Photo Library" = "Photo Library";
+"Camera" = "Camera";
+
+//Change Password
+"CHANGE PASSWORD" = "CHANGE PASSWORD";
+"Please Enter Password" = "Please Enter Password";
+"Password didn't match" = "Password didn't match";
+
+//Confirmation
+"Warning" = "Warning";
+"Please Turn on your Location" = "Please Turn on your Location";
+"Please enter your Address" = "Please enter your Address";
+"Please enter your phone number" = "Please enter your phone number";
+"CONFIRMATION" = "CONFIRMATION";
+
+//search
+"SEARCH" = "SEARCH";
+
+//Menu
+"MerHouse" = "MerHouse";
+"HOME" = "HOME";
+"SETTINGS" = "SETTINGS";

@@ -1,0 +1,82 @@
+/*
+ Localizable.strings
+ MerHouse
+ 
+ Created by ibrahim M. samak on 5/28/18.
+ Copyright © 2018 ibrahim M. samak. All rights reserved.
+ */
+
+
+
+//FORGET PASSWORD
+"FORGET PASSWORD" = "نسيت كلمة المرور";
+"Error" = "خطأ";
+"Please enter a valid email" = "الرجاء ادخل البريد الكتروني بالشكل الصحيح ";
+"Success" = "نجاح";
+"An Error occurred" = "عذرا .. حدث خطأ ما";
+"No Internet Connection" = "عذرا .. لا يوجد اتصال بالانترنت";
+
+//Login
+"Please enter your password" = "الرجاء ادخال كلمة المرور";
+
+//Register
+"Please enter Your Name" = "الرجاء ادخال الاسم";
+
+//CATEGORIES
+"CATEGORIES"  = "الأصناف";
+
+//PRODUCTS
+"PRODUCTS"  = "المنتجات";
+"AED" = "د.أ";
+
+//products details
+"Added to Favorite Successfully" =  "تمت الأضافة الى المفضلة بنجاح";
+"Added to Cart Successfully" =  "تمت الاضافة الى السلة بنجاح";
+
+//cart
+"MYCART" = "سلة المشتريات";
+"Total" = "المجموع: ";
+"Sorry!! The minimum order is 50 AED" = "عذرا .. الحد الأدنى للطلب هو ٥٠ درهم اماراتي";
+
+//FAVORITE
+"FAVORITE" =  "المفضلة";
+
+//NOTIFICATIONS
+"NOTIFICATIONS" = "التنبيهات";
+
+//MY ORDERS
+"MY ORDERS" =  "طلباتي";
+"Delivery Charge:" = "التوصيل: ";
+
+//order Details
+"Qty" = "الكمة: ";
+
+//profile
+"PROFILE" = "الملف الشخصي";
+"Please Enter your username" = "الرجاء ادخال اسم المستخدم";
+"Images" = "الصور";
+"Please select the image source" = "الرجاء اختر مصدر الصور";
+"Cancel" = "الغاء";
+"Photo Library" = "معرض الصور";
+"Camera" = "الكاميرا";
+
+//Change Password
+"CHANGE PASSWORD" = "تغيير كلمة المرور";
+"Please Enter Password" = "الرجاء ادخل كلمة المرور";
+"Password didn't match" = "كلمة المرور غير متطابفة";
+
+//Confirmation
+"Warning" = "تحذير";
+"Please Turn on your Location" = "الرجاء تفعيل الموقع الحالي";
+"Please enter your Address" = "الرجاء أدخل العنوان";
+"Please enter your phone number" = "الرجاء ادخل رقم الجوال";
+"CONFIRMATION" = "معلومات التوصيل";
+
+//search
+"SEARCH" = "البحث";
+
+//Menu
+"MerHouse" = "مير هاوس ماركت";
+"HOME" = "الرئيسية";
+"SETTINGS" = "الاعدادات";
+
