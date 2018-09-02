@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>870009979459-ov0hglp1c577rjcd4kudpuh1qlfjglj3.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.870009979459-ov0hglp1c577rjcd4kudpuh1qlfjglj3</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA3Lb2f-i0m-JjFDUE3uezyO9R6eBrB3w4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>870009979459</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ibra.MerHouse</string>
+	<key>PROJECT_ID</key>
+	<string>merhouse-b6cdf</string>
+	<key>STORAGE_BUCKET</key>
+	<string>merhouse-b6cdf.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:870009979459:ios:8d6162eb31b77896</string>
+	<key>DATABASE_URL</key>
+	<string>https://merhouse-b6cdf.firebaseio.com</string>
+</dict>
+</plist>
